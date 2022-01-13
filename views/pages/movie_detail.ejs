@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Details</h1>
+    <section>
+
+        <img src="https://image.tmdb.org/t/p/w500<%- allDetail.poster_path %>" alt="">
+        <article>
+            <h2>
+                <%- allDetail.original_title %>
+            </h2>
+            <p>
+                <%-allDetail.release_date %>Released
+            </p>
+            <div>
+                <p>
+                    <%-allDetail.genres[0] %>
+                </p>
+            </div>
+        </article>
+        <article>
+            <h3>
+                <%- %>
+            </h3>
+            <p>
+                <%- allDetail.overview%>
+            </p>
+        </article>
+    </section>
+</body>
+
+</html>
